@@ -1,0 +1,16 @@
+flask
+torch 
+torchvision
+torchaudio
+chromadb==0.3.29
+chroma-migrate
+PyPDF2
+transformers
+sentence-transformers
+requests
+flask-sqlalchemy
+python-dotenv
+faiss-cpu
+pdfplumber
+langchain
+google-generativeai

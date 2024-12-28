@@ -1,0 +1,5 @@
+{
+    "alice@email.com": ["Company_A_Q4_2023.pdf"],
+    "bob@email.com": ["Company_B_Annual_2023.pdf"],
+    "charlie@email.com":["Company_A_Q4_2023.pdf","Company_B_Annual_2023.pdf"]
+}

@@ -1,0 +1,1 @@
+python -c "from utils import create_embeddings; create_embeddings('documents', 'embeddings/metadata.json', 'embeddings/faiss_index')"

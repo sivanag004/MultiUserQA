@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query</title>
+</head>
+<body>
+    <h1>Document Search</h1>
+    <h2>Welcome {{ username }}</h2>
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter your query" required>
+        <button type="submit">Search</button>
+    </form>
+    <h2>Context:</h2>
+    <p>{{ context }}</p>
+    <h2>Results:</h2>
+    <ul>
+        {% for res in results %}
+            <li><strong>{{ res.filename }}</strong>: {{ res.content[:200] }}...</li>
+        {% endfor %}
+    </ul>
+    <a href="/logout">Logout</a>
+</body>
+</html>
